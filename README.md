@@ -17,4 +17,4 @@ HTML & CSS (style):
 HTML, CSS & JS (DOM):
 - Créer une pop up qui s'affiche lorsqu'on clique sur un bouton (event & DOM manipulation)
 - Créer un carrousel d'image
-- Afficher les articles de FakeStore API dans une gallery de produits (fetch)# html_css_js_defi
+- Afficher les articles de FakeStore API dans une gallery de produits (fetch)
