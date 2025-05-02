@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+    </header>
+    <main>
+        <form action="/contact.php" method="post">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="subject">Sujet :</label>
+                <select name="subject" id="subject">
+                    <option value="">--Choisir un sujet--</option>
+                    <option value="subject1">Sujet 1</option>
+                    <option value="subject2">Sujet 2</option>
+                    <option value="subject3">Sujet 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div>
+                <label for="newsletter">S'inscrire à la newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+</body>
+
+</html>
